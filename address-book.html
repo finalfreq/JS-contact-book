@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Address Book</title>
+    </head>
+    <script src="js/jquery-1.11.3.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <body>
+        <div class="container">
+            <h1 class="page-header text-center">Address Book</h1>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Add Contact:</h2>
+
+                    <form id="new-contact">
+                        <div class="form-group">
+                            <label for="new-first-name">First name</label>
+                            <input type="text" id="new-first-name" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="new-last-name">Last name</label>
+                            <input type="text" id="new-last-name" class="form-control">
+                        </div>
+
+                        <div id="new-addresses">
+                            <div class="new-address">
+                                <div class="form-group">
+                                    <label for="new-street">Street</label>
+                                    <input type="text" class="new-street form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="new-city">City</label>
+                                    <input type="text" class="new-city form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="new-state">State</label>
+                                    <input type="text" class="new-state form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <span class="btn btn-primary" id="add-address">Another address</span>
+                        <button type="submit" class="btn">Add</button>
+                    </form>
+
+                    <h2>Contacts:</h2>
+                    <ul id="contacts">
+
+                    </ul>
+
+                    <div class="col-md-6">
+                        <div id="show-contact">
+                            <h2></h2>
+
+                            <p>First name: <span class="first-name"></span></p>
+                            <p>Last name: <span class="last-name"></span></p>
+                            <p>Addresses:</p>
+                            <ul id="addresses">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+#show-contact {
+    display: none;
+}
+
+#contacts li span {
+    color: blue;
+}
+
+#contacts li span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
