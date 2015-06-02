@@ -19,3 +19,7 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+.new-address:nth-child(n + 2) {
+  display: none;
+}
