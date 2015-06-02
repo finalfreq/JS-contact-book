@@ -10,3 +10,12 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+.linkify {
+  color: blue;
+}
+
+.linkify:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
